@@ -1,0 +1,24 @@
+.body {
+    font-family: Roboto;
+    font-size: 14 px;
+     color: #000000;
+    font-weight: none;
+    line-height: 36px;
+}
+
+h1 {
+    font-family: Roboto;
+    font-size: 36px;
+    color:  #000000;
+      font-weight: bold;
+    line-height: 36px;
+}
+h2 {
+    font-family: Roboto;
+    font-size: 18 px;
+     color: #000000;
+    font-weight: none;
+    line-height: 30px;
+}
+
+
