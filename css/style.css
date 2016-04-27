@@ -1,23 +1,23 @@
-.body {
-    font-family: Roboto;
-    font-size: 14 px;
+body {
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
      color: #000000;
-    font-weight: none;
-    line-height: 36px;
+    font-weight: normal;
+    
 }
 
 h1 {
-    font-family: Roboto;
+    font-family: Roboto,  Arial, sans-serif;
     font-size: 36px;
     color:  #000000;
       font-weight: bold;
     line-height: 36px;
 }
 h2 {
-    font-family: Roboto;
-    font-size: 18 px;
+    font-family: Roboto,  Arial, sans-serif;
+    font-size: 18px;
      color: #000000;
-    font-weight: none;
+    font-weight: normal;
     line-height: 30px;
 }
 
