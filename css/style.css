@@ -20,5 +20,121 @@ h2 {
     font-weight: normal;
     line-height: 30px;
 }
-
-
+.clearfix:after{
+    content:'';
+    clear:both;
+    display:table;
+}
+.main-header {
+  margin-bottom: 80px;
+ background-color: aquamarine;
+    
+}
+.container{
+    width: 880px;
+    padding: 0 10px;
+    margin: 0 auto;
+    background-color: azure;
+    margin-bottom: 80px;
+    }
+.logo{
+    min-height: 85px; 
+    width: 300px;
+    float: left;
+    background-color: burlywood; 
+}
+.main-navigation{
+  min-height:  70px; 
+   width: 460px;
+    float: left;
+    background-color: indianred;
+}
+.basket{
+     min-height:70px;
+     width: 100px;
+    float: right;
+    background-color: chartreuse;
+}
+.slider{
+   width: 880px;
+    padding: 0 10px;
+    margin: 0 auto;
+   
+    background-color: yellow;  
+}
+.description{
+   min-height: 220px; 
+   width: 481px;
+    float: left;
+    background-color: green;   
+}
+.photo{
+ min-height: 220px; 
+   width: 340px;
+    float: right;
+    background-color: white;     
+}
+.about{
+    display: inline-block;
+   min-height: 39px;
+  margin-bottom: 80px;
+ }
+.feature{
+    float: left;
+    width: 240px;
+    margin-right: 80px;
+}
+.feature:last-child {
+  margin-right: 0;
+}
+.info{
+   margin-bottom: 75px;
+  padding: 10px 10px;
+    background-color: chartreuse;
+}
+.left{
+    float: left;
+    width: 620px;
+   background-color: darkkhaki;
+}
+.right{
+    float: right;
+    width: 230px;
+    background-color: darkgrey;
+}
+.clients{
+    display: inline-block;
+      width: 220px;
+}
+.content-left{
+    float: left;
+    width: 240px;
+    background-color: aquamarine;
+}
+.content-right{
+    float: right;
+    width: 570px;
+    background-color: hotpink;
+    
+}
+.gallery{
+    display: inline-block;
+    margin-right: 70px;
+}
+.main-footer{
+    background-color: pink;
+}
+.map{
+     margin-right: auto;
+     margin-left: auto;
+    background-color: cyan;
+  
+}
+.footer-social{
+    float: left;
+    width: 240px;
+}
+.slogan{
+    float: right;
+    width: 550px;
+}

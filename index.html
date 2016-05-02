@@ -6,8 +6,8 @@
     <title>Дизайн студия «Nerd's»</title>
 </head>
 <body>
-    <header class="main-header">
-        <div class="container">
+    <header class="main-header clearfix">
+        <div class="container clearfix">
             <div class="logo">
                 <a href="#">
                     <img src="img/logo-header.png" width="139" height="56" alt="Nerd's" >
@@ -29,11 +29,12 @@
                     </li>
                 </ul>
             </nav>
-            <div class="basket"> <a class="login" href="#">Корзина</a> 
+            <div class="basket">  
                 <img src="img/icon-basket.png" width="15" height="15" alt="Корзина">
+                <a class="login" href="#">Корзина</a>
             </div>
         </div>
-        <div class="slider">
+        <div class="slider clearfix">
             <div class="description">
                 <h1>Долго, дорого, скрупулёзно</h1><span class="topic">Метематически выверенный дизайн<br>
                 для вашего сайта или мобильного приложения</span>
@@ -45,7 +46,7 @@
         </div>        
     </header>
     <main class="container">
-        <div class="features">
+        <div class="features clearfix">
             <div class="feature">
                 <img src="img/web.jpg" width="240" height="124" alt="Веб-сайт" >
                 <h2>Веб-Сайты</h2>
@@ -68,7 +69,7 @@
                 <a href="#">Заказать</a>
             </div>
         </div>
-        <div class="info">
+        <div class="info clearfix">
             <div class="left">
                 <div class="slogan">
                     Мы-маленькая, но гордая<br>
@@ -111,12 +112,15 @@
         </div>
         <footer class="main-footer">
             <div class="map">
-                <img src="img/map_2.jpg"  width="1200" height="784"  alt="Карта">
-                <div class="contacts">
-                    <span class="contacts-nerds"><b>Nerds design ctudio</b><br>
-                    191186, Санкт-Петербург, ул.Б. Конюшенная, д. 19/8<br>
-                    Телефон: +7 (812) 275-75-75</span>
-                </div>
+                <img src="img/map_2.jpg" width="1200" height="784" alt="Карта" >
+                    <div class="contacts">
+                        <address>
+                        <b>Nerds design ctudio</b><br>
+                        191186, Санкт-Петербург, ул.Б. Конюшенная, д. 19/8<br>
+                        Телефон: +7 (812) 275-75-75
+                        </address>  
+                        <a href="#"></a>
+                    </div>
             </div>
             <div class="container">
                 <section class="footer-social">
@@ -126,10 +130,12 @@
                 </section>
                 <section class="slogan">
                     <p>Давайте дружить, это выгодно!</p>
+                </section>
+                <section class="discount">
                     <p>Скидка 10% для друзей из социальных сетей</p>
                 </section>
             </div>
-        </footer>
+      </footer>
     </main>
 </body>
 </html>
