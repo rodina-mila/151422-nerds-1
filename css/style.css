@@ -38,19 +38,16 @@ h2 {
     margin-bottom: 80px;
     }
 .logo{
-    min-height: 85px; 
     width: 300px;
     float: left;
     background-color: burlywood; 
 }
 .main-navigation{
-  min-height:  70px; 
-   width: 460px;
+     width: 460px;
     float: left;
     background-color: indianred;
 }
 .basket{
-     min-height:70px;
      width: 100px;
     float: right;
     background-color: chartreuse;
@@ -102,9 +99,13 @@ h2 {
     width: 230px;
     background-color: darkgrey;
 }
-.clients{
+.clients a {
+    width: 220px;
     display: inline-block;
-      width: 220px;
+    margin-right: 90px;
+}
+.clients a:last-child{
+    margin-right: 0;
 }
 .content-left{
     float: left;
@@ -117,22 +118,26 @@ h2 {
     background-color: hotpink;
     
 }
-.gallery{
+.gallery a{
     display: inline-block;
     margin-right: 70px;
+    margin-bottom: 80px;
+}
+.gallery{
+    font-size: 0;
+}
+.map{
+    width: 100%;
+    height: avto;
 }
 .main-footer{
     background-color: pink;
 }
-.map{
-     margin-right: auto;
-     margin-left: auto;
-    background-color: cyan;
-  
-}
+
 .footer-social{
     float: left;
     width: 240px;
+    margin-right: 70px;
 }
 .slogan{
     float: right;
