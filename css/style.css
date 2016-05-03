@@ -116,19 +116,22 @@ h2 {
     float: right;
     width: 570px;
     background-color: hotpink;
-    
+  }
+.gallery{
+    font-size: 0;
 }
 .gallery a{
     display: inline-block;
     margin-right: 70px;
     margin-bottom: 80px;
+    width:240px;
+    vertical-align:top; 
 }
-.gallery{
-    font-size: 0;
+.gallery a:nth-child(2n){
+margin-right:0;
 }
-.map{
-    width: 100%;
-    height: avto;
+.map img{
+  width: 100%;
 }
 .main-footer{
     background-color: pink;
