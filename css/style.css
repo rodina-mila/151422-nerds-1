@@ -130,8 +130,9 @@ h2 {
 .gallery a:nth-child(2n){
 margin-right:0;
 }
-.map img{
-  width: 100%;
+.map{
+ background-image: url(img/map.jpg);
+ background-size: cover;
 }
 .main-footer{
     background-color: pink;
