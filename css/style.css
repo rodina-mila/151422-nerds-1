@@ -132,10 +132,9 @@ margin-right:0;
 }
 .map{
  background-image: url(../img/map.jpg);
- background-size: auto 416 cover;
- height: 416px;
- width: 100%;
-}
+ background-size: cover;
+    height: 416px;
+    }
 .main-footer{
     background-color: pink;
 }
