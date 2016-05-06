@@ -131,8 +131,10 @@ h2 {
 margin-right:0;
 }
 .map{
- background-image: url(img/map.jpg);
- background-size: cover;
+ background-image: url(../img/map.jpg);
+ background-size: auto 416 cover;
+ height: 416px;
+ width: 100%;
 }
 .main-footer{
     background-color: pink;
