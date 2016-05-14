@@ -28,9 +28,9 @@ h3{
      color: #000000;
     font-weight: 700;
     line-height: 22px;
-    text-transform: uppercase;      
-}
-.clearfix:after{
+    text-transform: uppercase; 
+    }
+.clearfix::after{
     content:'';
     clear:both;
     display:table;
@@ -88,13 +88,12 @@ h3{
     max-width: 110px;
     float: right;
      text-transform: uppercase;
-    margin-bottom: 60px;
-    margin-top: 37px;
+    margin-bottom: 47px;
+    margin-top: 60px;
     }
 .login {
   display: inline-block;
-  padding-left: 35px;
-    font-size: 14px;
+      font-size: 14px;
   line-height: 30px;
   vertical-align: top;
   color: #000000;
@@ -104,8 +103,8 @@ h3{
  color: #f59b9d;
 }
 .login::before{
-content: url(/img/icon-basket.png);
-      display: block;
+content: url(img/icon-basket.png);
+      display: inline-block;
     position: relative;
     top: 50px;
     right: 50px;
@@ -117,7 +116,6 @@ content: url(/img/icon-basket.png);
     padding: 0 10px;
     margin: 0 auto;   
 }
-
 .topic{
     display:block;
    text-align: left;
@@ -175,9 +173,10 @@ float: right;
 }
 .feature a{
   display: inline-block;
-  margin-top: 30px;
+    width: 70px;
+  margin-top: 20px;
     margin-bottom: 80px;
-  padding: 7px 35px;
+  padding: 11px 35px;
   font-size: 12px;
   font-weight: 500;
   line-height: 18px;
@@ -190,34 +189,39 @@ float: right;
   border: none;
   outline: none;
 background-color: #fb565a;
-}
+     width: 70px;
+     }
 .feature a:hover{
     background-color: #d6494d;
-}
+     width: 70px;
+    }
 .feature a:active{
     background-color: #b63538;
 }
 .feature a.app{
     background-color: #00ca74;
+    width: 70px;
     }
 .feature a.app:hover{
     background-color: #01a25e;
+        width: 70px;
     }
 .feature a.app:active{
     background-color: #009053;
     }
 .feature a.present{
     background-color: #efc84a;
-    }
+    width: 70px;
+     }
 .feature a.present:hover{
     background-color: #d6ae2c;
+     width: 70px;
     }
 .feature a.present:active{
     background-color: #c09b24;
     }
 .info{
-   margin-bottom: 55px;
-  padding: 77px 10px;
+    padding: 0px 10px;
    border-top: 2px solid #f8f8f8;
    border-bottom: 2px solid #f8f8f8;
           }
@@ -228,7 +232,13 @@ background-color: #fb565a;
 .right{
     float: right;
     width: 250px;
+    margin-top: 55px;
    }
+.slogan{
+    font-size: 36px;
+    font-weight: 500;
+    margin-top: 65px;
+    }
 .clients{
      margin-top: 45px;
     padding-bottom: 33px;
@@ -271,23 +281,44 @@ margin-right:0;
 .main-footer{
     margin-top: 85px;
 }
+ .end{
+     display: block;
+       float: right; 
+     width: 570px;
+     margin-top: 75px
+         }
+.end p{
+    margin: 0;
+    padding: 0;
+    }
 
 .footer-social{
+    display: inline-block;
     float: left;
-    width: 240px;
-    margin-right: 70px;
+    margin-top: 75px;
+       }
+.footer-social img{
+    margin-right: 30px;
+   }
+.footer-social img:last-child {
+    margin-right: 0;
 }
-.slogan{
-     width: 550px;
+
+.footer-slogan{
     font-size: 36px;
     font-weight: 500;
-    margin-bottom: 30px;
-    display: inline-block;
-    
+       }
+.discount{
+    margin-bottom: 75px;
+   font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
 }
 ul{
   list-style: none;
      line-height: 45px;
+    margin-top: 25px;
+    margin-bottom: 70px;
   }
 .left li::before{
     content: "";
@@ -301,7 +332,7 @@ ul{
 }
 .year{
    display: inline-block;
-   margin-top: 35px;
+   margin-top: 25px;
   text-transform: uppercase;
     font-weight: 500;
 }
@@ -343,59 +374,6 @@ ul{
     display: inline-block;
     vertical-align:top;
     text-align: center;
-}
-.social-btn {
-  display: inline-block;
-  width: 63px;
-  height: 63px;
-  margin: 0 2px;
-
-  font-size: 0;
-  vertical-align: top;
-  text-decoration: none;
-
-  background: #e2e2e2 url("img/sprite.png") no-repeat center;
-  
-  transition: 
-    background-position 0.5s,
-    background-color 0.5s;
-}
-
-.social-btn:hover {
-  background-color: #fb6367;
-}
-
-.social-btn-vk {
-  background-position: 9px -447px;
-}
-
-.social-btn-fb {
-  background-position: 15px -171px;
-}
-
-.social-btn-inst {
-  background-position: 12px -313px;
-}
-
-.social-btn-vk:hover {
-  background-position: 9px -381px;
-}
-
-.social-btn-fb:hover {
-  background-position: 15px -100px;
-}
-
-.social-btn-inst:hover {
-  background-position: 12px -242px;
-}
-.slogan p{
-    display: inline-block;
-    vertical-align: top;
-     }
-.discount p{
-    display: inline-block;
-    vertical-align: top;
-    margin-left: 480px;
 }
 .range-filter {
   width: 240px;
