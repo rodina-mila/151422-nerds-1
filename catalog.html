@@ -33,7 +33,7 @@
                 </ul>
             </nav>
             <div class="basket">    
-                <a class="login" href="#">Корзина</a>
+                <a class="put" href="#">Корзина</a>
             </div>
             </div>
             <div class="welcome">добро пожаловать в магазин готовых макетов
@@ -60,23 +60,45 @@
                 </form>
                         <form>
                         <fieldset>
-                            <legend>Сетка:</legend> 
+                            <legend>сетка:</legend> 
+                            <div class="list">
                                 <input id="point1" name="tip" type="radio" value="Адаптивная">
                                 <label for="point1">Адаптивная</label>
+                            </div>
+                            <div class="list">
                                 <input id="point2" name="tip" type="radio" value="Фиксированная">
                                 <label for="point2">Фиксированная</label>
+                            </div>
+                            <div class="list">
                                 <input id="point3" name="tip" type="radio" value="Резиновая">
                                 <label for="point3">Резиновая</label>
+                            </div>
                     </fieldset>
                         <fieldset>
-                            <legend>Производители</legend>
+                            <legend>особенности</legend>
+                            <div class="listing">
                                 <input id="slider" type="checkbox">
                                 <label for="slider">Слайдер</label>
+                                </div>
+                             <div class="listing">
                                 <input id="block" type="checkbox">
                                 <label for="block">Блок преимуществ</label>
+                            </div>
+                                  <div class="listing">
                                 <input id="news" type="checkbox">
                                 <label for="news">Новости</label>
+                            </div>
+                            <div class="listing">
+                                <input id="collection" type="checkbox">
+                                <label for="collection">Галерея</label>
+                            </div>
+                            <div class="listing">
+                                <input id="case" type="checkbox">
+                                <label for="case">Корзина</label>
+                            </div>
                     </fieldset>
+                           <input class="pushbutton" type="submit" value="показать">
+                              
                    </form>
                             </div>
             <div class="content-right">
@@ -101,10 +123,17 @@
                 <a href="#"> <img src="img/4_4.jpg" width="240"  height="240" alt=""></a> 
                 <a href="#"> <img src="img/5_5.jpg" width="240"  height="240" alt=""></a> 
                 <a href="#"> <img src="img/6_6.jpg" width="240"  height="240" alt=""></a>
-            </div>
-              <ul class="pagination">
+                </div>
+                 <div class="promo">
+                 <div class="action">
+                 <h3>sunset</h3>
+                        <p>интеренет-магазин с личным кабинетом</p>
+                </div>
+                        <a href="#">1000 Р.</a>
+                    </div>
+                 <ul class="pagination">
                 <li>
-                  <a href="#">1</a>
+                  <a class="active" href="#">1</a>
                 </li>
                 <li>
                   <a href="#">2</a>
@@ -117,29 +146,28 @@
                 </li>
                 </ul>
             </div>
+             
+            </div>
           </div>
         </main>
-        <footer class="main-footer">
-            <div class="map">
-                <div class="contacts">
-                    <address>
-                        <b>Nerds design studio</b><br>
-                        191186, Санкт-Петербург, ул.Б. Конюшенная, д. 19/8<br>
-                        Телефон: +7 (812) 275-75-75
-                    </address>  
-                        <a href="#"></a>
-                </div>
+       <footer class="main-footer">
+             <div class="map">
+                    <div class="contacts">
+                        <div class="address">
+                        <h3>Nerds design studio</h3>
+                        <p>191186, Санкт-Петербург, ул.Б. Конюшенная, д. 19/8<br>
+                        тел.+7 (812) 275-75-75</p>
+                        </div>  
+                        <a href="#">напишите нам</a>
+                    </div>
             </div>
             <div class="container clearfix">                
                 <div class="footer-social">
-                    <a href="#">
-                        <img src="img/vk.png" width="62" height="62" alt="">
+                    <a class="social-button vk" href="#">
                     </a>
-                    <a href="#">
-                   <img src="img/fb.png" width="62" height="62" alt="">
+                    <a class="social-button fb" href="#">
                     </a>
-                    <a href="#">
-                        <img src="img/inst.png" width="62" height="62" alt="">
+                    <a class="social-button inst" href="#">
                     </a>
                 </div>
                 <div class="end">
